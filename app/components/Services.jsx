@@ -11,7 +11,7 @@ const Services = () => {
         My Services</h2>
 
         <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-            I am a frotend developer from Kampala, Uganda with 3 years of experience in multiple companies like Kolaborate, Uganda Tourism Board and Prismmarketing,</p>
+            I am a frotend developer from Kampala, Uganda with 3 years of experience in multiple companies like Kolaborate, Uganda Tourism Board and Prismmarketing.</p>
 
          <div className='grid grid-cols-auto gap-6 my-10'>
             {serviceData.map(({icon, title, description, link}, index)=>(
